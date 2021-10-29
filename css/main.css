@@ -167,6 +167,9 @@ nav a:hover {
    .empty-header-div {
       width: var(--menu-button-width);
    }
+   .logo {
+      margin-top: 0;
+   }
    .nav-wrapper .logo {
       display: none;
    }
