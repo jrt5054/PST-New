@@ -1,0 +1,48 @@
+main {
+    margin-top: 20px;
+    color: white;
+    display: grid;
+    grid-template-columns: 111px fit-content(657px);
+    grid-template-rows: auto;
+}
+main a{
+    color: rgb(192, 192, 192);
+}
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    max-width: 800px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.orange-text {
+    color: orange;
+}
+
+.green-text {
+    color: rgb(0, 255, 0);
+}
+.bold-large {
+    font-weight: bold;
+    font-size: 16px;
+}
+main p {
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+main p:nth-child(even) {
+    border-bottom: 1px solid #666;
+}
+main p:nth-child(3),
+main p:nth-child(4) {
+    margin: 0;
+    padding: 2px;
+}
+main :last-child {
+    margin-bottom: 10px;
+}
